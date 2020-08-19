@@ -27,4 +27,6 @@ otro entrono de desarrollo que tenga todas las dependencias anteriormente mencio
 3. Luego ejecutamos el siguiente comando composer install --optimize-autoloader --no-dev
 4. Una vez termine de instalarse nuestras dependencias ejecutamos el comando php artisan key:generate
 5. Después debemos instalar nuestras dependencias para vue atrás ves del comando npm install && run dev
-6. Ejecutamos en la terminal el comando php artisan serve y nos dirigimos a un navegador. Dentro de la barra de búsqueda colocamos localhost:8000
+6. Dentro de la terminal ubicada en la raíz del proyecto ejecutamos php artisan migrate:refresh --seed
+7. Ejecutamos en la terminal el comando php artisan serve y nos dirigimos a un navegador. Dentro de la barra de búsqueda colocamos localhost:8000
+
